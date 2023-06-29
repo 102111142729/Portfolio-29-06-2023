@@ -37,7 +37,7 @@ jobs:
         uses: actions/upload-pages-artifact@v1
         with:
           # Upload entire repository
-          path: '.'
+          path: 'https://github.com/102111142729/Portfolio-29-06-2023.git'
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v2
